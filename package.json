@@ -1,0 +1,30 @@
+{
+  "name": "docpad-plugin-mdash",
+  "version": "2.0.0",
+  "homepage": "https://github.com/semencov/docpad-plugin-mdash",
+  "keywords": [
+    "docpad",
+    "docpad-plugin",
+    "mdash",
+    "mdash.ru",
+    "emt",
+    "typography",
+    "typograf",
+    "typograph",
+    "typographer"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/semencov/docpad-plugin-mdash.git"
+  },
+  "engines": {
+    "node": ">=0.8"
+  },
+  "peerDependencies": {
+    "docpad": "6"
+  },
+  "main": "./src/mdash.plugin.coffee",
+  "dependencies": {
+    "mdash-node": "^0.2.10"
+  }
+}
