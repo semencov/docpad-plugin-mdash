@@ -1,6 +1,6 @@
 {
   "name": "docpad-plugin-mdash",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "homepage": "https://github.com/semencov/docpad-plugin-mdash",
   "keywords": [
     "docpad",
@@ -25,6 +25,6 @@
   },
   "main": "./src/mdash.plugin.coffee",
   "dependencies": {
-    "mdash-node": "^0.2.10"
+    "mdash-node": "^1.0.0"
   }
 }
