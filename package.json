@@ -1,6 +1,6 @@
 {
   "name": "docpad-plugin-mdash",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "homepage": "https://github.com/semencov/docpad-plugin-mdash",
   "keywords": [
     "docpad",
@@ -13,6 +13,7 @@
     "typograph",
     "typographer"
   ],
+  "main": "./out/mdash.plugin.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/semencov/docpad-plugin-mdash.git"
@@ -23,8 +24,28 @@
   "peerDependencies": {
     "docpad": "6"
   },
-  "main": "./src/mdash.plugin.coffee",
+  "devDependencies": {
+    "docpad": "6",
+    "coffee-script": "^1.9.1",
+    "projectz": "^0.5.0"
+  },
   "dependencies": {
     "mdash-node": "^1.0.0"
+  },
+  "cakeConfiguration": {
+    "COFFEE_SRC_PATH": "src"
+  },
+  "author": "",
+  "maintainers": [
+    ""
+  ],
+  "contributors": [
+    "semencov (https://github.com/semencov)"
+  ],
+  "bugs": {
+    "url": "https://github.com/semencov/docpad-plugin-mdash/issues"
+  },
+  "license": {
+    "type": ""
   }
 }
